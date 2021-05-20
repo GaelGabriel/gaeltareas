@@ -1,0 +1,39 @@
+.nav{
+  background: rgb(250, 250, 250, 0.6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.mnu a, menu li{
+    color: rgb(0, 0,0);
+    font-size: 20px;
+    width: 135px;
+    height: 55px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+.mnu a:hover, .mnu li:hover{
+    background: rgba(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    transition: all 1s;
+}
+
+.lognav{
+    width: 120px;
+    margin-left: 25px;
+    border-radius: 20px;
+ }
+
+.mnu{
+    display: flex;
+}
